@@ -6,7 +6,6 @@ def test_instancia_estudiante():
 
 def test_add_y_cantidad():
     curso = Curso()
-    
     assert curso.cantidad() == 0
     
     est1 = Estudiante("Ana")
