@@ -1,8 +1,8 @@
 from celular import Celular, Bateria
 
 def test_instancia_bateria():
-    ba = Bateria(5000)
-    cel = Celular("Samsung", ba)
+    bat = Bateria(5000)
+    cel = Celular("Samsung", bat)
     assert isinstance(cel.bateria, Bateria)
 
 def test_atributos():
